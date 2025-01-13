@@ -6,19 +6,20 @@
 <title>成都舜王科技有限公司综合业务部</title>
 <style type="text/css">
 a:link {
-	color: #000;
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease; /* 为链接添加颜色过渡效果 */
 }
 a:visited {
-	text-decoration: none;
-	color: #000;
+    text-decoration: none;
+    color: #000;
 }
 a:hover {
-	text-decoration: underline;
-	color: #F00;
+    text-decoration: underline;
+    color: #F00;
 }
 a:active {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .main{
@@ -31,8 +32,23 @@ a:active {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;N
+    right: 0;
     bottom: 0;
+    display: flex; /* 使用 flex 布局 */
+    flex-direction: column; /* 垂直排列元素 */
+    justify-content: center; /* 垂直居中元素 */
+    align-items: center; /* 水平居中元素 */
+}
+h1 {
+    font-size: 32px; /* 增大字体大小 */
+    font-family: Arial, sans-serif; /* 更改字体 */
+}
+body {
+    background: linear-gradient(45deg, #f0f0f0, #e0e0e0); /* 渐变背景 */
+}
+/* 为 | 符号添加的样式 */
+.separator {
+    color: #ccc; /* 浅灰色 */
 }
 </style>
 </head>
@@ -42,11 +58,10 @@ a:active {
 <div class="main">
   <h1>成都舜王科技有限公司综合业务部</h1>
   <h1>&nbsp;</h1>
-  <p>
-
-<a href="https://www.site.shunking.cn/">建站</a> | <a href="http://www.swtx.shunking.cn/">通信</a> | <a href="/hc/">画册</a> | <a href="/bz/">包装</a> | <a href="/std/">手提袋</a> | <a href="/bs/">标识</a> | <a href="/ui/">UI</a> | <a href="/vi/">VI</a> | <a href="/dy/">抖音</a> | <a href="/jnc/">纪念册</a>  
+  <p style="font-size:18px">
+<a href="https://www.site.shunking.cn/">建站</a><span class="separator"> | </span><a href="http://www.swtx.shunking.cn/">通信</a><span class="separator"> | </span><a href="/hc/">画册</a><span class="separator"> | </span><a href="/bz/">包装</a><span class="separator"> | </span><a href="/std/">手提袋</a><span class="separator"> | </span><a href="/bs/">标识</a><span class="separator"> | </span><a href="/ui/">UI</a><span class="separator"> | </span><a href="/vi/">VI</a><span class="separator"> | </span><a href="/dy/">抖音</a><span class="separator"> | </span><a href="/jnc/">纪念册</a>  
   </p>
-
+  <p style="margin-top:100px;font-size:14px; color:#">&copy; 成都舜王科技有限公司 蜀ICP备16023211号 川B2-20240767</p> <!-- 新增版权信息和备案号 -->
 </div>
 
 </body>
