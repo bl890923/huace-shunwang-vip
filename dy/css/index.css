@@ -36,7 +36,7 @@ div {display: block;}
 /* 头部导航 */
 nav{width: 100%;background-color: white;margin: 0 auto;height: 140px;line-height: 140px;}
 .navfirst{width: 100%;background-color: #F4F4F4;margin: 0 auto;}
-.nav-top{width: 70%;display: flex;height: 40px;line-height: 40px;margin: 0 auto;}
+.nav-top{width: 65%;display: flex;height: 40px;line-height: 40px;margin: 0 auto;}
 .nav-top .nav-l{width: 600px;text-align: left;color: #8d8d8d;}
 .nav-top .nav-r{width: 600px;text-align: right;color: #8d8d8d;}
 .nav-top .nav-r a{color: #8d8d8d;}
